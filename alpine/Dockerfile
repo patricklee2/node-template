@@ -41,6 +41,8 @@ RUN sed -i 's/^\(tty\d\:\:\)/#\1/g' /etc/inittab \
     && sed -i 's/VSERVER/DOCKER/Ig' /lib/rc/sh/init.sh
 
 # setup default site
+RUN rm -f /etc/ssh/sshd_config
+COPY sshd_config /etc/ssh/
 COPY startup /opt/startup
 COPY hostingstart.html /opt/startup
 
@@ -55,11 +57,12 @@ RUN chmod -R +x /opt/startup \
    && npm install 
 
 
+ENV PORT 8080
+ENV SSH_PORT 2222
 EXPOSE 2222 8080
 
 ENV PM2HOME /pm2home
 
-ENV PORT 8080
 ENV WEBSITE_ROLE_INSTANCE_ID localRoleInstance
 ENV WEBSITE_INSTANCE_ID localInstance
 ENV PATH ${PATH}:/home/site/wwwroot

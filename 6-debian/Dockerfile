@@ -1,4 +1,4 @@
-FROM oryxprod/node-6.11:20181025.5
+FROM ${TAG}
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 RUN  echo "deb http://deb.debian.org/debian/ jessie main" > /etc/apt/sources.list \

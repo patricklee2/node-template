@@ -1,4 +1,4 @@
-FROM node:${NODE_IMAGE_TAG}
+FROM ${TAG}
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 RUN  echo "deb http://deb.debian.org/debian/ jessie main" > /etc/apt/sources.list \

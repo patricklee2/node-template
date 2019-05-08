@@ -1,13 +1,16 @@
-# node-ci
+# Azure App Service Linux Node.js image templates
 
-node 4 -> 4-debian
+These are the templates used to the Node.js images
 
-node 6.2 -> 6.2-debian
+Realized Dockerfiles are at: https://github.com/azure-app-service/node
 
-node 6.6+ -> 6-debian
-
-node 8.0, 8.1 -> 8.0-debian
-
-node 8.2 to 8.10 -> debian-8
-
-node 8.11+ -> debian-9
+# Version Mapping
+|Node.jd Version | Template Name|
+|----------------|--------------|
+| 4              | 4-debian     |
+| 6.2            | 6.2-debian   |
+| 6.6+           | 6-debian     |
+| 8.0, 8.1       | 8.0-debian   |
+| 8.2 - 8.10     | debian-8     |
+| 8.11+          | debian-9     |
+| 10             | debian-9     |

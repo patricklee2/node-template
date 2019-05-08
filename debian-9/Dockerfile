@@ -1,4 +1,4 @@
-FROM node:10.10.0-alpine
+FROM ${TAG}
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 RUN echo "ipv6" >> /etc/modules

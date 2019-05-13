@@ -21,7 +21,7 @@ USER node
 
 RUN npm install npm@latest -g
 RUN cd /opt/pm2 \
-  && npm install pm2 
+  && npm install pm2@latest -g 
 
 RUN  cd /opt/startup \
   && npm install

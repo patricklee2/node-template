@@ -16,11 +16,13 @@ RUN npm remove pm2 -g \
      && chmod -R 777 /usr/local \
      && ln -s /opt/pm2/node_modules/pm2/bin/pm2 /usr/local/bin/pm2
 
+
+USER node
+
 RUN npm install npm@latest -g
 RUN cd /opt/pm2 \
   && npm install pm2 
 
-USER node
 RUN  cd /opt/startup \
   && npm install
 

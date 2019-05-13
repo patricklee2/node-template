@@ -13,7 +13,7 @@ RUN npm remove pm2 -g \
      && chmod -R 777 /opt/startup \
      && mkdir -p /opt/pm2 \
      && chmod 777 /opt/pm2 \
-     && chmod 777 -r /usr/local \
+     && chmod -R 777 /usr/local \
      && ln -s /opt/pm2/node_modules/pm2/bin/pm2 /usr/local/bin/pm2
 
 RUN npm install npm@latest -g

@@ -19,9 +19,9 @@ RUN npm remove pm2 -g \
 
 USER node
 
-RUN npm install npm@latest -g
+RUN npm install npm@latest
 RUN cd /opt/pm2 \
-  && npm install pm2@latest -g 
+  && npm install pm2@latest
 
 RUN  cd /opt/startup \
   && npm install

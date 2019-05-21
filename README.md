@@ -4,6 +4,8 @@ These are the templates used to the Node.js images
 
 Realized Dockerfiles are at: https://github.com/azure-app-service/node
 
+Base Image: https://github.com/microsoft/Oryx/tree/master/images/runtime/node
+
 # Version Mapping
 |Node.js Version | Template Name|
 |----------------|--------------|

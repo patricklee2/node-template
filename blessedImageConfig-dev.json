@@ -204,7 +204,7 @@
         "outputImageName": "node:dev-6.9",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.9.git",
         "outputRepoBranchName": "dev",
-        "webAppName": "appsvcbuild-node-6.9-dev",
+        "webAppName": "appsvcbuild-node-6-9-dev",
         "saveArtifacts": true,
         "useCache": true
     },

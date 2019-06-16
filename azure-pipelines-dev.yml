@@ -9,7 +9,7 @@ jobs:
 - job:
   pool:
     vmImage: 'ubuntu-latest'
-  timeoutInMinutes: 180
+  timeoutInMinutes: 360
   displayName: 'Running test'
   steps:
   - bash: |

@@ -9,7 +9,7 @@
         "outputImageName": "node:save-10.14",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.14.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-10-14-save",
+        "webAppName": "blimp-node-10-14-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -23,7 +23,7 @@
         "outputImageName": "node:save-10.12",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.12.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-10-12-save",
+        "webAppName": "blimp-node-10-12-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -37,7 +37,7 @@
         "outputImageName": "node:save-10.10",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.10.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-10-10-save",
+        "webAppName": "blimp-node-10-10-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -51,7 +51,7 @@
         "outputImageName": "node:save-10.1",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.1.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-10-1-save",
+        "webAppName": "blimp-node-10-1-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -65,7 +65,7 @@
         "outputImageName": "node:save-9.4",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-9.4.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-9-4-save",
+        "webAppName": "blimp-node-9-4-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -78,7 +78,7 @@
         "templateRepoBranchName": "dev","outputImageName": "node:save-8.12",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.12.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-12-save",
+        "webAppName": "blimp-node-8-12-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -92,7 +92,7 @@
         "outputImageName": "node:save-8.11",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.11.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-11-save",
+        "webAppName": "blimp-node-8-11-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -106,7 +106,7 @@
         "outputImageName": "node:save-8.9",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.9.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-9-save",
+        "webAppName": "blimp-node-8-9-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -120,7 +120,7 @@
         "outputImageName": "node:save-8.8",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.8.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-8-save",
+        "webAppName": "blimp-node-8-8-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -134,7 +134,7 @@
         "outputImageName": "node:save-8.2",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.2.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-2-save",
+        "webAppName": "blimp-node-8-2-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -148,7 +148,7 @@
         "outputImageName": "node:save-8.1",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.1.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-1-save",
+        "webAppName": "blimp-node-8-1-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -162,7 +162,7 @@
         "outputImageName": "node:save-8.1",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.1.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-8-1-save",
+        "webAppName": "blimp-node-8-1-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -176,7 +176,7 @@
         "outputImageName": "node:save-6.11",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.11.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-6-11-save",
+        "webAppName": "blimp-node-6-11-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -190,7 +190,7 @@
         "outputImageName": "node:save-6.10",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.10.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-6-10-save",
+        "webAppName": "blimp-node-6-10-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -204,7 +204,7 @@
         "outputImageName": "node:save-6.9",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.9.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-6-9-save",
+        "webAppName": "blimp-node-6-9-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -218,7 +218,7 @@
         "outputImageName": "node:save-6.6",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.6.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-6-6-save",
+        "webAppName": "blimp-node-6-6-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -232,7 +232,7 @@
         "outputImageName": "node:save-6.2",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.2.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-6-2-save",
+        "webAppName": "blimp-node-6-2-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -246,7 +246,7 @@
         "outputImageName": "node:save-4.8",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-4.8.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-4-8-save",
+        "webAppName": "blimp-node-4-8-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -260,7 +260,7 @@
         "outputImageName": "node:save-4.5",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-4.5.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-4-5-save",
+        "webAppName": "blimp-node-4-5-save",
         "saveArtifacts": true,
         "useCache": true
     },
@@ -274,7 +274,7 @@
         "outputImageName": "node:save-4.4",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-4.4.git",
         "outputRepoBranchName": "save",
-        "webAppName": "appsvcbuild-node-4-4-save",
+        "webAppName": "blimp-node-4-4-save",
         "saveArtifacts": true,
         "useCache": true
     }

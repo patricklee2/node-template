@@ -159,10 +159,10 @@
         "baseImageName": "mcr.microsoft.com/oryx/node:8.0-20190518.2",
         "templateRepoURL": "https://github.com/Azure-App-Service/node-template.git",
         "templateRepoBranchName": "dev",
-        "outputImageName": "node:master-8.1",
-        "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.1.git",
+        "outputImageName": "node:master-8.0",
+        "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.0.git",
         "outputRepoBranchName": "master",
-        "webAppName": "blimp-node-8-1-master",
+        "webAppName": "blimp-node-8-0-master",
         "saveArtifacts": true,
         "useCache": true
     },

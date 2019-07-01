@@ -19,7 +19,7 @@ def writeConfig(content, file):
     f.close()
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--newOryxTimestamp', "-t", help='new oryx timestamp EG: 20190628.2')
+parser.add_argument('--newOryxTimestamp', "-t", help='new oryx timestamp EG: 20190628.2', required=True)
 args = parser.parse_args()
 
 newOryxTimestamp = args.newOryxTimestamp

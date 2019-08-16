@@ -18,7 +18,8 @@ RUN npm install -g pm2 \
       yarn \
       net-tools \
       dnsutils \
-      tcpdump
+      tcpdump \
+      iproute2
 # setup default site
 RUN rm -f /etc/ssh/sshd_config
 COPY startup /opt/startup

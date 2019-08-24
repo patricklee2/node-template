@@ -1,6 +1,6 @@
 [
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:10-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:10-20190823.2",
         "outputImageName": "node:master-10",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.git",
@@ -14,7 +14,7 @@
         "webAppName": "blimp-node-10-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8-20190823.2",
         "outputImageName": "node:master-8",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.git",
@@ -28,7 +28,7 @@
         "webAppName": "blimp-node-8-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:6-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:6-20190823.2",
         "outputImageName": "node:master-6",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.git",
@@ -42,7 +42,7 @@
         "webAppName": "blimp-node-6-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:10.16-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:10.16-20190823.2",
         "outputImageName": "node:master-10.16",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.16.git",
@@ -56,7 +56,7 @@
         "webAppName": "blimp-node-10-16-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:10.14-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:10.14-20190823.2",
         "outputImageName": "node:master-10.14",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.14.git",
@@ -70,7 +70,7 @@
         "webAppName": "blimp-node-10-14-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:10.12-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:10.12-20190823.2",
         "outputImageName": "node:master-10.12",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.12.git",
@@ -84,7 +84,7 @@
         "webAppName": "blimp-node-10-12-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:10.10-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:10.10-20190823.2",
         "outputImageName": "node:master-10.10",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.10.git",
@@ -98,7 +98,7 @@
         "webAppName": "blimp-node-10-10-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:10.1-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:10.1-20190823.2",
         "outputImageName": "node:master-10.1",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-10.1.git",
@@ -112,7 +112,7 @@
         "webAppName": "blimp-node-10-1-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:9.4-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:9.4-20190823.2",
         "outputImageName": "node:master-9.4",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-9.4.git",
@@ -126,7 +126,7 @@
         "webAppName": "blimp-node-9-4-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.12-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.12-20190823.2",
         "outputImageName": "node:master-8.12",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.12.git",
@@ -140,7 +140,7 @@
         "webAppName": "blimp-node-8-12-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.11-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.11-20190823.2",
         "outputImageName": "node:master-8.11",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.11.git",
@@ -154,7 +154,7 @@
         "webAppName": "blimp-node-8-11-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.9-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.9-20190823.2",
         "outputImageName": "node:master-8.9",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.9.git",
@@ -168,7 +168,7 @@
         "webAppName": "blimp-node-8-9-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.8-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.8-20190823.2",
         "outputImageName": "node:master-8.8",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.8.git",
@@ -182,7 +182,7 @@
         "webAppName": "blimp-node-8-8-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.2-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.2-20190823.2",
         "outputImageName": "node:master-8.2",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.2.git",
@@ -196,7 +196,7 @@
         "webAppName": "blimp-node-8-2-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.1-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.1-20190823.2",
         "outputImageName": "node:master-8.1",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.1.git",
@@ -210,7 +210,7 @@
         "webAppName": "blimp-node-8-1-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:8.0-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:8.0-20190823.2",
         "outputImageName": "node:master-8.0",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-8.0.git",
@@ -224,7 +224,7 @@
         "webAppName": "blimp-node-8-0-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:6.11-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:6.11-20190823.2",
         "outputImageName": "node:master-6.11",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.11.git",
@@ -238,7 +238,7 @@
         "webAppName": "blimp-node-6-11-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:6.10-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:6.10-20190823.2",
         "outputImageName": "node:master-6.10",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.10.git",
@@ -252,7 +252,7 @@
         "webAppName": "blimp-node-6-10-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:6.9-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:6.9-20190823.2",
         "outputImageName": "node:master-6.9",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.9.git",
@@ -266,7 +266,7 @@
         "webAppName": "blimp-node-6-9-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:6.6-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:6.6-20190823.2",
         "outputImageName": "node:master-6.6",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.6.git",
@@ -280,7 +280,7 @@
         "webAppName": "blimp-node-6-6-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:6.2-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:6.2-20190823.2",
         "outputImageName": "node:master-6.2",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-6.2.git",
@@ -294,7 +294,7 @@
         "webAppName": "blimp-node-6-2-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:4.8-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:4.8-20190823.2",
         "outputImageName": "node:master-4.8",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-4.8.git",
@@ -308,7 +308,7 @@
         "webAppName": "blimp-node-4-8-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:4.5-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:4.5-20190823.2",
         "outputImageName": "node:master-4.5",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-4.5.git",
@@ -322,7 +322,7 @@
         "webAppName": "blimp-node-4-5-master"
     },
     {
-        "baseImageName": "mcr.microsoft.com/oryx/node:4.4-20190730.1",
+        "baseImageName": "mcr.microsoft.com/oryx/node:4.4-20190823.2",
         "outputImageName": "node:master-4.4",
         "outputRepoBranchName": "master",
         "outputRepoURL": "https://github.com/blessedimagepipeline/node-4.4.git",

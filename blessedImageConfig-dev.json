@@ -56,6 +56,20 @@
         "webAppName": "blimp-node-6-dev"
     },
     {
+        "baseImageName": "mcr.microsoft.com/oryx/node:12.9-20190826.2",
+        "outputImageName": "node:dev-12.9",
+        "outputRepoBranchName": "dev",
+        "outputRepoURL": "https://github.com/blessedimagepipeline/node-12.9.git",
+        "saveArtifacts": true,
+        "stack": "node",
+        "templateRepoBranchName": "dev",
+        "templateRepoURL": "https://github.com/Azure-App-Service/node-template.git",
+        "tries": "2",
+        "useCache": true,
+        "version": "12.9",
+        "webAppName": "blimp-node-12-9-dev"
+    },
+    {
         "baseImageName": "mcr.microsoft.com/oryx/node:10.16-20190826.2",
         "outputImageName": "node:dev-10.16",
         "outputRepoBranchName": "dev",

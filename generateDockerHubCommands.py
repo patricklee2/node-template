@@ -28,15 +28,19 @@ buildRequests = getConfig(config)
 print("az login")
 print("az acr login --name blimpacr")
 for br in buildRequests:
+    print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))
+
     if '.' in br["version"]:
-        prefix = ""
+        print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}_{}".format(br["outputImageName"], br["stack"], br["version"], tag))
+        print("docker tag blimpacr.azurecr.io/{} appsvc/{}:{}_{}".format(br["outputImageName"], br["stack"], br["version"], tag))
+        print("docker push appsvctest/{}:{}_{}".format(br["stack"], br["version"], tag))
+        print("docker push appsvc/{}:{}_{}".format(br["stack"], br["version"], tag))
     else:
         prefix = "-lts"
-    print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))
-    print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}{}_{}".format(br["outputImageName"], br["stack"], br["version"], prefix, tag))
-    print("docker tag blimpacr.azurecr.io/{} appsvc/{}:{}{}_{}".format(br["outputImageName"], br["stack"], br["version"], prefix, tag))
-    print("docker push appsvctest/{}:{}{}_{}".format(br["stack"], br["version"], prefix, tag))
-    print("docker push appsvc/{}:{}{}_{}".format(br["stack"], br["version"], prefix, tag))
+        print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}{}".format(br["outputImageName"], br["stack"], br["version"], prefix))
+        print("docker tag blimpacr.azurecr.io/{} appsvc/{}:{}{}".format(br["outputImageName"], br["stack"], br["version"], prefix))
+        print("docker push appsvctest/{}:{}{}".format(br["stack"], br["version"], prefix))
+        print("docker push appsvc/{}:{}{}".format(br["stack"], br["version"], prefix))
 
     ### LATEST / LTS ###
     if br["version"] == "10.14":

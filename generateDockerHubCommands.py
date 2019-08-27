@@ -42,7 +42,6 @@ for br in buildRequests:
             print("docker push appsvctest/{}:{}{}".format(br["stack"], br["version"], prefix))
             print("docker push appsvc/{}:{}{}".format(br["stack"], br["version"], prefix))
 
-
     ### LATEST / LTS ###
     if br["version"] == "10.16":
         print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))

@@ -43,7 +43,7 @@ for br in buildRequests:
         print("docker push appsvc/{}:{}{}".format(br["stack"], br["version"], prefix))
 
     ### LATEST / LTS ###
-    if br["version"] == "10.14":
+    if br["version"] == "10.16":
         print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))
         print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}_{}".format(br["outputImageName"], br["stack"], "latest", tag))
         print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}".format(br["outputImageName"], br["stack"], "latest"))
@@ -61,4 +61,3 @@ for br in buildRequests:
         print("docker push appsvc/{}:{}".format(br["stack"], "latest"))
         print("docker push appsvc/{}:{}_{}".format(br["stack"], "lts", tag))
         print("docker push appsvc/{}:{}".format(br["stack"], "lts"))
-        

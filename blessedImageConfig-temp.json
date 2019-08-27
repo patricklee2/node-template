@@ -1,5 +1,15 @@
 [
     {
+        "baseImageName": "mcr.microsoft.com/oryx/node:12-20190826.2",
+        "saveArtifacts": false,
+        "stack": "node",
+        "templateRepoBranchName": "dev",
+        "templateRepoURL": "https://github.com/Azure-App-Service/node-template.git",
+        "tries": "2",
+        "useCache": true,
+        "version": "12"
+    },
+    {
         "baseImageName": "mcr.microsoft.com/oryx/node:10-20190826.2",
         "saveArtifacts": false,
         "stack": "node",
@@ -28,6 +38,16 @@
         "tries": "2",
         "useCache": true,
         "version": "6"
+    },
+    {
+        "baseImageName": "mcr.microsoft.com/oryx/node:12.9-20190826.2",
+        "saveArtifacts": false,
+        "stack": "node",
+        "templateRepoBranchName": "dev",
+        "templateRepoURL": "https://github.com/Azure-App-Service/node-template.git",
+        "tries": "2",
+        "useCache": true,
+        "version": "12.9"
     },
     {
         "baseImageName": "mcr.microsoft.com/oryx/node:10.16-20190826.2",

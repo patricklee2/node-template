@@ -28,18 +28,23 @@ buildRequests = getConfig(config)
 print("az login")
 print("az acr login --name blimpacr")
 for br in buildRequests:
-    if '.' in br["version"]:
-        prefix = ""
-    else:
-        prefix = "-lts"
-    print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))
-    print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}{}_{}".format(br["outputImageName"], br["stack"], br["version"], prefix, tag))
-    print("docker tag blimpacr.azurecr.io/{} appsvc/{}:{}{}_{}".format(br["outputImageName"], br["stack"], br["version"], prefix, tag))
-    print("docker push appsvctest/{}:{}{}_{}".format(br["stack"], br["version"], prefix, tag))
-    print("docker push appsvc/{}:{}{}_{}".format(br["stack"], br["version"], prefix, tag))
+        print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))
+
+        if '.' in br["version"]:
+            print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}_{}".format(br["outputImageName"], br["stack"], br["version"], tag))
+            print("docker tag blimpacr.azurecr.io/{} appsvc/{}:{}_{}".format(br["outputImageName"], br["stack"], br["version"], tag))
+            print("docker push appsvctest/{}:{}_{}".format(br["stack"], br["version"], tag))
+            print("docker push appsvc/{}:{}_{}".format(br["stack"], br["version"], tag))
+        else:
+            prefix = "-lts"
+            print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}{}".format(br["outputImageName"], br["stack"], br["version"], prefix))
+            print("docker tag blimpacr.azurecr.io/{} appsvc/{}:{}{}".format(br["outputImageName"], br["stack"], br["version"], prefix))
+            print("docker push appsvctest/{}:{}{}".format(br["stack"], br["version"], prefix))
+            print("docker push appsvc/{}:{}{}".format(br["stack"], br["version"], prefix))
+
 
     ### LATEST / LTS ###
-    if br["version"] == "10.14":
+    if br["version"] == "10.16":
         print("docker pull blimpacr.azurecr.io/{}".format(br["outputImageName"]))
         print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}_{}".format(br["outputImageName"], br["stack"], "latest", tag))
         print("docker tag blimpacr.azurecr.io/{} appsvctest/{}:{}".format(br["outputImageName"], br["stack"], "latest"))
@@ -57,4 +62,3 @@ for br in buildRequests:
         print("docker push appsvc/{}:{}".format(br["stack"], "latest"))
         print("docker push appsvc/{}:{}_{}".format(br["stack"], "lts", tag))
         print("docker push appsvc/{}:{}".format(br["stack"], "lts"))
-        

@@ -1,5 +1,19 @@
 [
     {
+        "baseImageName": "mcr.microsoft.com/oryx/node:12-20190826.2",
+        "outputImageName": "node:master-12",
+        "outputRepoBranchName": "master",
+        "outputRepoURL": "https://github.com/blessedimagepipeline/node-12.git",
+        "saveArtifacts": true,
+        "stack": "node",
+        "templateRepoBranchName": "master",
+        "templateRepoURL": "https://github.com/Azure-App-Service/node-template.git",
+        "tries": "2",
+        "useCache": true,
+        "version": "12",
+        "webAppName": "blimp-node-12-master"
+    },
+    {
         "baseImageName": "mcr.microsoft.com/oryx/node:10-20190826.2",
         "outputImageName": "node:master-10",
         "outputRepoBranchName": "master",
@@ -40,6 +54,20 @@
         "useCache": true,
         "version": "6",
         "webAppName": "blimp-node-6-master"
+    },
+    {
+        "baseImageName": "mcr.microsoft.com/oryx/node:12.9-20190826.2",
+        "outputImageName": "node:master-12.9",
+        "outputRepoBranchName": "master",
+        "outputRepoURL": "https://github.com/blessedimagepipeline/node-12.9.git",
+        "saveArtifacts": true,
+        "stack": "node",
+        "templateRepoBranchName": "master",
+        "templateRepoURL": "https://github.com/Azure-App-Service/node-template.git",
+        "tries": "2",
+        "useCache": true,
+        "version": "12.9",
+        "webAppName": "blimp-node-12-9-master"
     },
     {
         "baseImageName": "mcr.microsoft.com/oryx/node:10.16-20190826.2",
